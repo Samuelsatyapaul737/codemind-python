@@ -1,6 +1,7 @@
-s=list(map(str,input().split()))
-a=len(s)
-s=s[a-1]
+s=input()
+s=s.split(' ')
+n=len(s)
+s=s[n-1]
 n=min(s)
 m=n.lower()
 if s.count(m)!=0:

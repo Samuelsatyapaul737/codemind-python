@@ -1,12 +1,12 @@
-s=input().lower()
-s1=input().lower()
+x = input().lower()
+y = input().lower()
 l=[]
-for i in s:
-    if i not in s1:
+for i in x:
+    if i not in y:
         l.append(i)
-for j in s1:
-    if j not in s:
-        l.append(j)
-for k in sorted(set(l)):
-    if k!=' ':
-        print(k,end='')
+for i in y:
+    if i not in x:
+        l.append(i)
+for j in sorted(set(l)):
+    if j!=' ':
+        print(j,end="")

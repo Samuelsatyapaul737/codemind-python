@@ -1,6 +1,4 @@
 s=input()
-x=s.split(" ")
-for i in x:
-    m=ord(min(i))
-    ma=ord(max(i))
-    print(abs(m-ma),end=' ')
+s=s.split(' ')
+for i in s:
+    print(abs(ord(min(i))-ord(max(i))),end=' ')

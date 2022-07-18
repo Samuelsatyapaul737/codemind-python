@@ -1,6 +1,4 @@
-s=input()
-x=s.split(" ")
-for i in x:
-    mi=min(i)
-    ma=max(i)
-    print(mi,ma,end=' ')
+s=list(map(str,input().split()))
+for i in s:
+    print(min(i),end=' ')
+    print(max(i),end=' ')
